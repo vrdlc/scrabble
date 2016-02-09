@@ -9,4 +9,11 @@ public class ScrabbleTest {
     Integer score = 1;
     assertEquals(score, scrabble.scrabbleScore("a"));
   }
+  @Test
+  public void scrabbleScore_returnsAScrabbleScoreForManyLetters_1() {
+    Scrabble scrabble = new Scrabble();
+    Integer score = 1;
+    assertEquals(score, scrabble.scrabbleScore("eioulnrst"));
+  }
+
 }
