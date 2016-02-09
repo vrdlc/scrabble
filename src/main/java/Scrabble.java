@@ -20,6 +20,8 @@ public class Scrabble {
         score +=3;
       } else if (letter == 'f' || letter == 'h' || letter == 'v' || letter == 'w' || letter == 'y') {
         score +=4;
+      } else if (letter == 'k'){
+        score +=5;
       }
     }
     System.out.println();
