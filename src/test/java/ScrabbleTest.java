@@ -21,5 +21,10 @@ public class ScrabbleTest {
     Integer score = 4;
     assertEquals(score, scrabble.scrabbleScore("d,g"));
   }
-
+  @Test
+  public void scrabbleScore_returnsAScrabbleScoreForValue3_2() {
+    Scrabble scrabble = new Scrabble();
+    Integer score = 12;
+    assertEquals(score, scrabble.scrabbleScore("b,c,m,p"));
+  }
 }

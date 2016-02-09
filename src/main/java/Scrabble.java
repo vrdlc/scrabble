@@ -16,9 +16,12 @@ public class Scrabble {
         score += 1;
       } else if (letter == 'd' || letter == 'g'){
         score +=2;
-      }
+      } else if (letter == 'b' || letter == 'c' || letter == 'm' || letter == 'p') {
+        score +=3;
+    }
     }
     System.out.println();
     return score;
+
   }
 }
