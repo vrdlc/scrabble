@@ -39,4 +39,10 @@ public class ScrabbleTest {
     Integer score = 5;
     assertEquals(score, scrabble.scrabbleScore("k"));
   }
+  @Test
+  public void scrabbleScore_returnsAScrabbleScoreForValue8_16() {
+    Scrabble scrabble = new Scrabble();
+    Integer score = 16;
+    assertEquals(score, scrabble.scrabbleScore("j, x"));
+  }
 }
