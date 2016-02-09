@@ -10,10 +10,10 @@ public class ScrabbleTest {
     assertEquals(score, scrabble.scrabbleScore("a"));
   }
   @Test
-  public void scrabbleScore_returnsAScrabbleScoreForManyLetters_1() {
+  public void scrabbleScore_returnsAScrabbleScoreForManyLetters_9() {
     Scrabble scrabble = new Scrabble();
-    Integer score = 1;
-    assertEquals(score, scrabble.scrabbleScore("eioulnrst"));
+    Integer score = 9;
+    assertEquals(score, scrabble.scrabbleScore("e,i,o,u,l,n,r,s,t"));
   }
 
 }

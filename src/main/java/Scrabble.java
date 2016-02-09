@@ -12,7 +12,7 @@ public class Scrabble {
     char[] scrabbleArray = userWord.toCharArray();
     Integer score = 0;
     for ( char letter : scrabbleArray) {
-      if ( letter == 'a') {
+      if ( letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u' || letter == 'r' || letter == 'l' || letter == 'n' || letter == 's' || letter == 't') {
         score += 1;
       }
     }
