@@ -24,6 +24,8 @@ public class Scrabble {
         score += 5;
       } else if (letter == 'j' || letter == 'x') {
         score += 8;
+      } else if (letter == 'q' || letter == 'z') {
+        score += 10;
       }
     }
     System.out.println();
